@@ -64,7 +64,7 @@ Deployment Steps
     
     Example:
     
-      apiVersion: v1
+     ```apiVersion: v1
       kind: Secret
       metadata:
         name: aws-credentials
@@ -72,6 +72,7 @@ Deployment Steps
       data:
         aws_access_key_id: <base64-encoded-key>
         aws_secret_access_key: <base64-encoded-secret>
+     ```
 
 5. Apply Deployments
 
