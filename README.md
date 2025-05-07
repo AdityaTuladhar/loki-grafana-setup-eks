@@ -51,6 +51,9 @@ Deployment Steps
     `AmazonEBSCSIDriverPolicy`
     
     Alternatively, create a custom policy with permissions for ec2:AttachVolume, ec2:DetachVolume, and related EBS actions, then attach it to the role.
+
+    ![image](https://github.com/user-attachments/assets/73354cd8-3197-472b-af16-0bec590aebb1)
+
     
     You can update the role using the AWS CLI or AWS Management Console.
 
